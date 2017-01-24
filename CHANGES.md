@@ -1,12 +1,72 @@
-## master
+## Master (UNRELEASED)
+
+New languages
+
+- *Hy* by [Sergey Sobko][]
+- *Leaf* by [Hale Chan][]
+
+Improvements:
+
+- *Python* updated with f-literals by [Philipp A][].
+- Some keywords added to *Kotlin* by [Philipp Hauer][].
+- *YAML* updated with unquoted strings support.
+- *Gauss* updated with new keywords by [Matt Evans][].
+- *Lua* updated with new keywords by [Joe Blow][].
+- *Rust* updated with new keywords by [Kasper Andersen][].
+
+[Philipp A]: https://github.com/flying-sheep
+[Philipp Hauer]: https://github.com/phauer
+[Sergey Sobko]: https://github.com/profitware
+[Hale Chan]: https://github.com/halechan
+[Matt Evans]: https://github.com/matthewevans
+[Joe Blow]: https://github.com/mossarelli
+[Kasper Andersen]: https://github.com/kasma1990
+
+
+## Version 9.9.0
+
+New languages
+
+- *LLVM* by [Michael Rodler][]
+
+Improvements:
+
+- *TypeScript* updated with annotations and param lists inside constructors, by
+  [Raphael Parree][].
+- *CoffeeScript* updated with new keywords and fixed to recognize JavaScript
+  in \`\`\`, thanks to thanks to [Geoffrey Booth][].
+- Compiler directives in *Delphi* are now correctly highlighted as "meta".
+
+[Raphael Parree]: https://github.com/rparree
+[Michael Rodler]: https://github.com/f0rki
+[Geoffrey Booth]: https://github.com/GeoffreyBooth
+
+
+## Version 9.8.0 "New York"
+
+This version is the second one that deserved a name. Because I'm in New York,
+and the release isn't missing the deadline only because it's still Tuesday on
+West Coast.
 
 New languages:
 
 - *Clean* by [Camil Staps][]
 - *Flix* by [Magnus Madsen][]
 
+Improvements:
+
+- [Kenton Hamaluik][] did a comprehensive update for *Haxe*.
+- New commands for *PowerShell* from [Nicolas Le Gall][].
+- [Jan T. Sott][] updated *NSIS*.
+- *Java* and *Swift* support unicode characters in identifiers thanks to
+  [Alexander Lichter][].
+
 [Camil Staps]: https://github.com/camilstaps
 [Magnus Madsen]: https://github.com/magnus-madsen
+[Kenton Hamaluik]: https://github.com/FuzzyWuzzie
+[Nicolas Le Gall]: https://github.com/darkitty
+[Jan T. Sott]: https://github.com/idleberg
+[Alexander Lichter]: https://github.com/manniL
 
 
 ## Version 9.7.0
